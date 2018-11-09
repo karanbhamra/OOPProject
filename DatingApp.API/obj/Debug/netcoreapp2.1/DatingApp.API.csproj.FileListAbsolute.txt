@@ -1,0 +1,14 @@
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.deps.json
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.runtimeconfig.json
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.runtimeconfig.dev.json
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.dll
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.pdb
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.csprojAssemblyReference.cache
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.csproj.CoreCompileInputs.cache
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.RazorAssemblyInfo.cache
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.RazorAssemblyInfo.cs
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.AssemblyInfoInputs.cache
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.AssemblyInfo.cs
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.RazorTargetAssemblyInfo.cache
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.dll
+/Users/karan/Library/Mobile Documents/com~apple~CloudDocs/OOP Project/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.pdb
