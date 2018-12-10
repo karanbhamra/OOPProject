@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using AutoMapper;
 using DatingApp.API.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,8 +12,10 @@ namespace DatingApp.API.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IDatingRepository _repo;
-        public UsersController(IDatingRepository repo)
+        private readonly IMapper _mapper;
+        public UsersController(IDatingRepository repo, IMapper mapper)
         {
+            this._mapper = mapper;
             this._repo = repo;
 
         }
