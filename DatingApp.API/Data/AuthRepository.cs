@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using DatingApp.API.Helpers;
 using DatingApp.API.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -56,7 +57,25 @@ namespace DatingApp.API.Data
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
 
+            user.ArrestedFor = "Murder";
+            user.DateOfBirth = DateTime.UnixEpoch;
+            user.Gender = "Male";
+            user.City = "Los Angeles";
+            user.Country = "USA";
+            user.Alias = "Fat " + user.Username.FirstCharToUpper();
+            user.LookingFor = "Another person to love life with and kill with.";
+            user.Introduction = "Hello, I am a murderer, but that is not all that I am. I am a kind and lovable person. I have three dogs.";
+            user.Interests = "I love killing people and long walks on the beach.";
+
             await _context.Users.AddAsync(user);
+
+            await _context.Photos.AddAsync(new Photo
+            {
+                IsMain = true,
+                    UserId = user.Id,
+                    Url = "https://randomuser.me/api/portraits/men/" + 69 + ".jpg"
+
+            });
             await _context.SaveChangesAsync();
 
             return user;
