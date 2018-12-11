@@ -16,8 +16,8 @@ Prison Love is a SPA dating app powered by Angular for frontend and .NET Core AP
 
 ## Additional Requirements:
 1. Authorization was also implemented on the api controller side, for example view the UsersController in DatingApp.API/Controllers
-2. OOP Patterns used - Repository pattern was used with an interface and a provided implementation.
-3. Unit tests were used for API via xUnit to test some api calls.
+2. OOP Patterns used - Repository pattern was used with an interface and a provided implementation, and DTO Pattern. The data transfer object           pattern was used to send the the login info such as username and password to the controller, it is useful when we want to pass multiple             attributes in a single shot.
+3. AutoMapper was also used to map the full User class class to two slightly modified User classes, one for simple card view on angular side and        second one for a more detailed page.
 
 ### Instructions
 -   Provided username and password to test: chris, password
