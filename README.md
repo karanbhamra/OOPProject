@@ -2,7 +2,7 @@
 
 ## Final Project - Prison Love
 
-Prison Love is a SPA dating app powered by Angular for frontend and .NET Core API for backend. Its where inmates come to find love.
+Prison Love is a SPA dating app powered by Angular for frontend and .NET Core API for backend and using Sqlite3 for database. Its where inmates come to find love.
 
 ## [Live Demo](https://datingappapi20181211122529.azurewebsites.net)
 
